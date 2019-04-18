@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :pizza do
-    name { "Cheese" }
+    name { Faker::Name.first_name  }
     price { 0.99 }
   end
 end

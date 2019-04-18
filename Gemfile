@@ -46,6 +46,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'factory_bot'
   gem 'pry'
+  gem 'faker'
 end
 
 
